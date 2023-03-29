@@ -10,18 +10,6 @@ public class CheckPointScript : MonoBehaviour
     public int checkPointNumber = 0;
     public int previousNumber = 0;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void OnTriggerEnter(Collider other)
     {
         if (checkPointColliders.Length > checkPointNumber)
