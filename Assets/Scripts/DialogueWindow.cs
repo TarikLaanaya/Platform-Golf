@@ -17,7 +17,6 @@ public class DialogueWindow : MonoBehaviour
 
     public bool completedText;
 
-    // Start is called before the first frame update
     void Start()
     {
         Group = GetComponent<CanvasGroup>();
